@@ -1,0 +1,9 @@
+nmap -h
+
+nmap vulnweb.com
+
+nmap 192.168.131.128 
+
+nmap 192.168.131.128 -o res.txt
+
+cat res.txt
