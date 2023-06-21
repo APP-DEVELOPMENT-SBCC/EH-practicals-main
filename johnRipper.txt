@@ -1,0 +1,9 @@
+sudo su
+
+cd Desktop  
+                                                                             
+sudo zip2john image.zip >file.txt  
+                                                                             
+cat file.txt
+                                                                             
+sudo john file.txt               
